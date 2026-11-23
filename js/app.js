@@ -108,7 +108,7 @@
               "<div><strong>12 Months</strong><span>Warranty</span></div>" +
             "</div>" +
           "</div>" +
-          '<div class="hero-art"><div class="hero-art-ring"></div>' + hubSvg(s.accent, s.bolts) + "</div>" +
+          '<div class="hero-art"><div class="hero-art-ring"></div><div class="hero-photo-frame"><img class="hero-photo" src="' + s.image + '" alt="' + s.title + '" loading="eager"></div></div>' +
         "</div>" +
       "</article>";
     }).join("");
@@ -199,7 +199,7 @@
       return '<article class="product-card" tabindex="0" role="button" data-id="' + p.id + '" aria-label="View details for ' + p.name + '" style="--product-accent:' + p.accent + '">' +
         '<div class="product-media">' +
           (p.badge ? '<span class="product-badge">' + p.badge + "</span>" : "") +
-          hubSvg(p.accent, p.bolts) +
+          '<img class="product-photo" src="' + p.image + '" alt="' + p.name + ' for ' + p.fitment + '" loading="lazy">' +
           '<span class="product-oem-tag">OEM ' + p.oem + "</span>" +
         "</div>" +
         '<div class="product-info">' +
@@ -242,7 +242,7 @@
       }).join("");
 
       body.innerHTML = '<div class="modal-layout">' +
-        '<div class="modal-media">' + hubSvg(product.accent, product.bolts) + "</div>" +
+        '<div class="modal-media"><img class="modal-photo" src="' + product.image + '" alt="' + product.name + '"></div>' +
         '<div class="modal-content">' +
           '<span class="product-cat">' + categoryName(product.category) + "</span>" +
           '<h2 id="modalTitle">' + product.name + "</h2>" +

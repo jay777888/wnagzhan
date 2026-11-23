@@ -8,8 +8,11 @@
 .
 ├── index.html          # 页面结构（导航、页脚、联系方式在这里改）
 ├── css/style.css       # 全部样式
-├── data/products.js    # 所有内容数据：轮播、分类、商品、促销
-└── js/app.js           # 轮播、筛选、商品详情弹窗等交互
+├── data/products.js    # 所有内容数据：轮播、分类、商品、促销（含图片路径）
+├── js/app.js           # 轮播、筛选、商品详情弹窗等交互
+├── images/             # 站点使用的实拍图片（已下载到本地，不依赖外链）
+├── credits.html        # 图片来源与许可说明
+└── .gitignore          # 排除本地内部文件
 ```
 
 ## 本地预览
@@ -34,7 +37,7 @@ python3 -m http.server 8000
 
 ### 2. 上传文件
 
-在新仓库页面点 **uploading an existing file**，把本文件夹里的 **4 个文件和 3 个子文件夹**（`index.html`、`css`、`data`、`js`、本 `README.md`）拖进去，点 **Commit changes**。
+在新仓库页面点 **uploading an existing file**，把本文件夹里的**全部文件和文件夹**（`index.html`、`credits.html`、本 `README.md`、`css/`、`data/`、`js/`、`images/`）拖进去，点 **Commit changes**。`.gitignore` 和 `.workbuddy/` 是隐藏项，不需要上传。
 
 注意：拖的是文件夹**里面的内容**，不要把最外层的 `wnagzhan` 文件夹整个拖进去。
 
@@ -77,7 +80,7 @@ git push -u origin main
 
 ## 上线前需要注意
 
-- 当前商品型号、价格、适配车型都是**演示数据**，图片是 SVG 技术示意图，请替换为真实信息。
+- 当前商品型号、价格、适配车型都是**演示数据**；图片来自 Pexels 和 Wikimedia Commons 的免费图库，只用于版式演示，并不是对应型号的真实产品照。正式上线前请换成你自己的产品图，并在 `data/products.js` 中修改 `image` 路径。图片来源与许可见 `credits.html`。
 - 这是一个纯展示站，没有购物车、支付和后台；联系入口只是一个 `mailto:` 邮箱链接。
 - 正式商用前请核对产品适配性和商标/OEM 号的使用授权。
 

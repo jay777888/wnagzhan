@@ -19,6 +19,7 @@ const SITE_DATA = {
       cta: "Explore Products",
       href: "#products",
       accent: "#ff6b1a",
+      image: "images/hero-1.jpg",
       bolts: 5
     },
     {
@@ -28,6 +29,7 @@ const SITE_DATA = {
       cta: "View Categories",
       href: "#categories",
       accent: "#4da3ff",
+      image: "images/hero-2.jpg",
       bolts: 6
     },
     {
@@ -37,6 +39,7 @@ const SITE_DATA = {
       cta: "See Promotions",
       href: "#promotions",
       accent: "#ffbe3d",
+      image: "images/hero-3.jpg",
       bolts: 8
     }
   ],
@@ -60,6 +63,7 @@ const SITE_DATA = {
   products: [
     {
       id: "ht-513256",
+      image: "images/product-01.jpg",
       name: "Front Wheel Hub Unit",
       fitment: "Toyota Corolla 2008–2013",
       oem: "513256",
@@ -79,6 +83,7 @@ const SITE_DATA = {
     },
     {
       id: "ht-42200-SNA-008",
+      image: "images/product-02.jpg",
       name: "Rear Wheel Hub Assembly",
       fitment: "Honda Civic 2006–2011",
       oem: "42200-SNA-008",
@@ -98,6 +103,7 @@ const SITE_DATA = {
     },
     {
       id: "ht-KD35-26-15X",
+      image: "images/product-03.jpg",
       name: "Front Hub Bearing Assembly",
       fitment: "Mazda CX-5 2012–2016",
       oem: "KD35-26-15X",
@@ -117,6 +123,7 @@ const SITE_DATA = {
     },
     {
       id: "ht-513121",
+      image: "images/product-04.jpg",
       name: "Rear Wheel Hub Unit",
       fitment: "buick 2014–2019",
       oem: "513121",
@@ -136,6 +143,7 @@ const SITE_DATA = {
     },
     {
       id: "ht-9l3z1104",
+      image: "images/product-05.jpg",
       name: "Front Wheel Hub Assembly",
       fitment: "Ford F-150 2009–2014",
       oem: "9L3Z-1104-A",
@@ -155,6 +163,7 @@ const SITE_DATA = {
     },
     {
       id: "ht-68080127",
+      image: "images/product-06.jpg",
       name: "Rear Hub Bearing Unit",
       fitment: "RAM 1500 2012–2018",
       oem: "68080127AA",
@@ -174,6 +183,7 @@ const SITE_DATA = {
     },
     {
       id: "ht-9063300025",
+      image: "images/product-07.jpg",
       name: "Heavy Duty Wheel Hub",
       fitment: "Mercedes Sprinter 2010–2018",
       oem: "906 330 0025",
@@ -193,6 +203,7 @@ const SITE_DATA = {
     },
     {
       id: "ht-28373fg",
+      image: "images/product-08.jpg",
       name: "Performance Hub Unit",
       fitment: "Subaru WRX 2015–2020",
       oem: "28373FG020",
@@ -212,6 +223,7 @@ const SITE_DATA = {
     },
     {
       id: "ht-tha3500",
+      image: "images/product-09.jpg",
       name: "Trailer Hub Assembly",
       fitment: "3,500 lb trailer axle",
       oem: "THA-3500",
@@ -231,6 +243,7 @@ const SITE_DATA = {
     },
     {
       id: "ht-1k0498621",
+      image: "images/product-10.jpg",
       name: "Front Wheel Hub Bearing",
       fitment: "VW Golf 2010–2017",
       oem: "1K0 498 621",
