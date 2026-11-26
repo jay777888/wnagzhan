@@ -62,11 +62,11 @@ const SITE_DATA = {
 
   products: [
     {
-      id: "ht-513256",
-      image: "images/product-01.jpg",
-      name: "Front Wheel Hub Unit",
-      fitment: "Toyota Corolla 2008–2013",
-      oem: "513256",
+      id: "ht-512078",
+      image: "images/512078.png",
+      name: "512078",
+      fitment: "Application on request",
+      oem: "512078",
       category: "passenger",
       price: 48.5,
       badge: "BEST SELLER",
@@ -82,49 +82,9 @@ const SITE_DATA = {
       }
     },
     {
-      id: "ht-42200-SNA-008",
-      image: "images/product-02.jpg",
-      name: "Rear Wheel Hub Assembly",
-      fitment: "Honda Civic 2006–2011",
-      oem: "42200-SNA-008",
-      category: "passenger",
-      price: 52.0,
-      badge: "",
-      accent: "#4da3ff",
-      bolts: 5,
-      specs: {
-        "Position": "Rear axle",
-        "Bearing type": "Double row ball",
-        "Flange": "4-bolt mounting",
-        "ABS sensor": "Integrated",
-        "Material": "Forged steel",
-        "MOQ": "20 pcs"
-      }
-    },
-    {
-      id: "ht-KD35-26-15X",
-      image: "images/product-03.jpg",
-      name: "Front Hub Bearing Assembly",
-      fitment: "Mazda CX-5 2012–2016",
-      oem: "KD35-26-15X",
-      category: "suv",
-      price: 76.8,
-      badge: "HOT",
-      accent: "#ffbe3d",
-      bolts: 5,
-      specs: {
-        "Position": "Front axle",
-        "Bearing type": "Double row angular contact",
-        "Flange": "5-bolt mounting",
-        "ABS sensor": "Magnetic ring",
-        "Material": "Hardened steel",
-        "MOQ": "12 pcs"
-      }
-    },
-    {
       id: "ht-513121",
-      image: "images/product-04.jpg",
-      name: "Rear Wheel Hub Unit",
+      image: "images/513121.png",
+      name: "513121",
       fitment: "buick 2014–2019",
       oem: "513121",
       category: "suv",
@@ -142,11 +102,31 @@ const SITE_DATA = {
       }
     },
     {
-      id: "ht-9l3z1104",
-      image: "images/product-05.jpg",
-      name: "Front Wheel Hub Assembly",
-      fitment: "Ford F-150 2009–2014",
-      oem: "9L3Z-1104-A",
+      id: "ht-513196",
+      image: "images/513196.png",
+      name: "513196",
+      fitment: "Application on request",
+      oem: "513196",
+      category: "passenger",
+      price: 52.0,
+      badge: "HOT",
+      accent: "#ffbe3d",
+      bolts: 5,
+      specs: {
+        "Position": "Front axle",
+        "Bearing type": "Double row angular contact",
+        "Flange": "5-bolt mounting",
+        "ABS sensor": "Magnetic ring",
+        "Material": "Hardened steel",
+        "MOQ": "12 pcs"
+      }
+    },
+    {
+      id: "ht-515003",
+      image: "images/515003.png",
+      name: "515003",
+      fitment: "Application on request",
+      oem: "515003",
       category: "truck",
       price: 95.0,
       badge: "",
@@ -162,11 +142,11 @@ const SITE_DATA = {
       }
     },
     {
-      id: "ht-68080127",
-      image: "images/product-06.jpg",
-      name: "Rear Hub Bearing Unit",
-      fitment: "RAM 1500 2012–2018",
-      oem: "68080127AA",
+      id: "ht-515024",
+      image: "images/515024.png",
+      name: "515024",
+      fitment: "Application on request",
+      oem: "515024",
       category: "truck",
       price: 108.0,
       badge: "NEW",
@@ -182,11 +162,11 @@ const SITE_DATA = {
       }
     },
     {
-      id: "ht-9063300025",
-      image: "images/product-07.jpg",
-      name: "Heavy Duty Wheel Hub",
-      fitment: "Mercedes Sprinter 2010–2018",
-      oem: "906 330 0025",
+      id: "ht-515036",
+      image: "images/515036.png",
+      name: "515036",
+      fitment: "Application on request",
+      oem: "515036",
       category: "commercial",
       price: 142.0,
       badge: "",
@@ -199,66 +179,6 @@ const SITE_DATA = {
         "ABS sensor": "Integrated",
         "Material": "High-strength cast steel",
         "MOQ": "6 pcs"
-      }
-    },
-    {
-      id: "ht-28373fg",
-      image: "images/product-08.jpg",
-      name: "Performance Hub Unit",
-      fitment: "Subaru WRX 2015–2020",
-      oem: "28373FG020",
-      category: "performance",
-      price: 118.0,
-      badge: "PRO SERIES",
-      accent: "#ef4444",
-      bolts: 5,
-      specs: {
-        "Position": "Front axle",
-        "Bearing type": "Low-friction ball",
-        "Flange": "5-bolt mounting",
-        "ABS sensor": "High-response ring",
-        "Material": "Forged alloy steel",
-        "MOQ": "10 pcs"
-      }
-    },
-    {
-      id: "ht-tha3500",
-      image: "images/product-09.jpg",
-      name: "Trailer Hub Assembly",
-      fitment: "3,500 lb trailer axle",
-      oem: "THA-3500",
-      category: "trailer",
-      price: 39.9,
-      badge: "",
-      accent: "#fbbf24",
-      bolts: 4,
-      specs: {
-        "Position": "Trailer axle",
-        "Bearing type": "Tapered roller",
-        "Flange": "4-bolt mounting",
-        "ABS sensor": "Not included",
-        "Material": "Galvanised steel",
-        "MOQ": "30 pcs"
-      }
-    },
-    {
-      id: "ht-1k0498621",
-      image: "images/product-10.jpg",
-      name: "Front Wheel Hub Bearing",
-      fitment: "VW Golf 2010–2017",
-      oem: "1K0 498 621",
-      category: "passenger",
-      price: 58.6,
-      badge: "",
-      accent: "#22d3ee",
-      bolts: 5,
-      specs: {
-        "Position": "Front axle",
-        "Bearing type": "Double row ball",
-        "Flange": "4-bolt mounting",
-        "ABS sensor": "Magnetic ring",
-        "Material": "Forged steel",
-        "MOQ": "20 pcs"
       }
     }
   ],
