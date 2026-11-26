@@ -78,6 +78,7 @@ git push -u origin main
 - **换成你自己的产品图**：把图片放进 `images/` 文件夹，然后在 `data/products.js` 里改对应商品的 `image` 路径。当前 6 个商品型号（512078、513121、513196、515003、515024、515036）的名称和 OEM 号都取自你「图片」文件夹里的文件名，图片也来自那里。
 - **联系方式**：搜索 `index.html` 里的 `info@example.com`，替换成你的邮箱。
 - **品牌名**：`data/products.js` 的 `brand` 字段和 `index.html` 里的 `HUBTEK` 文本。
+- **深色 / 亮色切换**：导航栏右侧的月亮/太阳按钮可切换主题，选择会保存在浏览器本地，刷新后仍生效。`index.html` 和 `credits.html` 顶部各有一小段读取本地设置的脚本（防止刷新时闪一下）；主题配色集中在 `css/style.css` 顶部的 `:root`（深色）和 `html[data-theme="light"]`（亮色）两组变量里，改颜色只动这两处。
 
 ## 上线前需要注意
 

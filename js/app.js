@@ -341,6 +341,27 @@
       const chip = event.target.closest("[data-filter]");
       if (chip) setFilter(chip.getAttribute("data-filter"));
     });
+
+    // Theme toggle (dark / light), persisted across visits.
+    const themeToggle = $("#themeToggle");
+    const themeMeta = $('meta[name="theme-color"]');
+    function applyTheme(theme) {
+      document.documentElement.setAttribute("data-theme", theme);
+      if (themeMeta) themeMeta.setAttribute("content", theme === "light" ? "#f4f6f9" : "#0b0e12");
+      if (themeToggle) {
+        themeToggle.setAttribute("aria-label", theme === "light" ? "Switch to dark theme" : "Switch to light theme");
+        themeToggle.title = theme === "light" ? "切换深色模式" : "切换亮色模式";
+      }
+    }
+    let currentTheme = document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+    applyTheme(currentTheme);
+    if (themeToggle) {
+      themeToggle.addEventListener("click", function () {
+        currentTheme = currentTheme === "light" ? "dark" : "light";
+        applyTheme(currentTheme);
+        try { localStorage.setItem("hubtek-theme", currentTheme); } catch (e) {}
+      });
+    }
   }
 
   /* ---------- boot ---------- */
